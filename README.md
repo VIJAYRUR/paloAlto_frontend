@@ -1,75 +1,98 @@
-# paloAlto_frontend
+# FitFoodie - Social Fitness App
 
-A cross-platform mobile app for influencers to share their meals and for users to discover, track, and order personalized meal plans based on their health profiles.
+FitFoodie is a mobile social fitness application that connects users with fitness influencers. It allows users to follow fitness influencers, view their workouts and meal plans, track daily calorie intake, and purchase recommended products.
 
-## Features
+![FitFoodie App](docs/images/app-preview.png)
 
-- Influencers can post their daily meals with macro information
-- Users can browse meal posts from influencers
-- View detailed macro information for each meal
-- Order ingredients through affiliate links
-- Get personalized meal recommendations based on physical profile and medical records
-- Cross-platform (iOS and Android) using React Native with Expo
+## 🌟 Features
 
-## Getting Started
+- **Social Feed**: Instagram-like feed with posts, reels, and stories from fitness influencers
+- **Meal Plans**: Browse, save, and purchase meal plans shared by influencers
+- **Calorie Tracker**: Log daily meals and track nutrition information
+- **Shopping Cart**: Purchase products and ingredients recommended by influencers
+- **User Profiles**: Personalized profiles for both users and influencers
+- **Influencer Mode**: Influencers can post their daily meals with macro information
+- **Personalized Recommendations**: Get meal recommendations based on your profile
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React Native** with Expo for cross-platform mobile development
+- **React Navigation** for app navigation
+- **Expo Vector Icons** for UI icons
+
+### Backend
+- **Flask** REST API for backend services
+- **MongoDB** for database storage
+- **JWT** for authentication
+
+## 📋 Documentation
+
+Detailed documentation is available in the [docs](./docs) directory:
+
+- [Project Overview](./docs/project-overview.md)
+- [Setup Guide](./docs/setup-guide.md)
+- [Frontend Documentation](./docs/frontend/README.md)
+- [Backend Documentation](./docs/backend/README.md)
+- [API Documentation](./docs/api/README.md)
+
+## 🚀 Getting Started
 
 ### Prerequisites
-
-- Node.js (v14 or newer)
-- npm or yarn
-- Expo CLI
-- Expo Go app on your mobile device
+- Node.js (v14 or later)
+- Python 3.8+
+- MongoDB
 
 ### Installation
 
-1. Clone the repository
-2. Navigate to the project directory:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VIJAYRUR/paloAlto_frontend.git
+   cd paloAlto_frontend
    ```
+
+2. Set up the frontend:
+   ```bash
    cd FitFoodie
-   ```
-3. Install dependencies:
-   ```
    npm install
    ```
-   or
-   ```
-   yarn install
+
+3. Set up the backend:
+   ```bash
+   cd ../FitFoodie-Backend
+   pip install -r requirements.txt
    ```
 
-### Running the App
+4. Start the backend server:
+   ```bash
+   python run.py
+   ```
 
-1. Start the development server:
-   ```
-   npm start
-   ```
-   or
-   ```
-   yarn start
-   ```
-   or
-   ```
+5. Start the frontend app:
+   ```bash
+   cd ../FitFoodie
    npx expo start
    ```
 
-2. Scan the QR code with the Expo Go app on your mobile device to run the app
+## 📱 App Screenshots
 
-## Project Structure
+| Home Feed | Meal Plans | Profile |
+|-----------|------------|---------|
+| ![Home Feed](docs/images/home-feed.png) | ![Meal Plans](docs/images/meal-plans.png) | ![Profile](docs/images/profile.png) |
 
-- `/screens` - Main app screens
-- `/components` - Reusable UI components
-- `/assets` - Images and other static assets
+## 🤝 Contributing
 
-## Technologies Used
+Contributions are welcome! Please check out our [Contributing Guidelines](./docs/contributing.md) for details.
 
-- React Native
-- Expo
-- React Navigation
+## 📄 License
 
-## Future Enhancements
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- User authentication
-- Backend integration for data persistence
-- Real-time updates for influencer posts
-- Integration with food delivery services
-- Detailed nutrition tracking
-- Social features (likes, comments, sharing)
+## 👥 Team
+
+- [Vijay Nagarur](https://github.com/VIJAYRUR) - Project Lead
+
+## 🙏 Acknowledgements
+
+- [Unsplash](https://unsplash.com) for the demo images
+- [RandomUser API](https://randomuser.me) for profile avatars
