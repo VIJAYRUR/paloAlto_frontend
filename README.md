@@ -1,8 +1,15 @@
 # FitFoodie - Social Fitness App
 
-FitFoodie is a mobile social fitness application that connects users with fitness influencers. It allows users to follow fitness influencers, view their workouts and meal plans, track daily calorie intake, and purchase recommended products.
+FitFoodie is a mobile social fitness application that connects users with fitness influencers. It allows users to follow fitness influencers, view their workouts and meal plans, track daily calorie
+![WhatsApp Image 2025-04-12 at 23 16 49](https://github.com/user-attachments/assets/ec909307-fe4b-4da3-949d-07842f5327cf)
+![WhatsApp Image 2025-04-12 at 23 16 49 (5)](https://github.com/user-attachments/assets/dbd89be5-4b47-45b3-a5e5-91d041d7be7d)
+![WhatsApp Image 2025-04-12 at 23 16 49 (4)](https://github.com/user-attachments/assets/5bd091d6-02dd-498b-803d-a0da195bea6c)
+![WhatsApp Image 2025-04-12 at 23 16 49 (3)](https://github.com/user-attachments/assets/f0bc7502-c7be-45c4-baa0-144436c6016f)
+![WhatsApp Image 2025-04-12 at 23 16 49 (2)](https://github.com/user-attachments/assets/17a136ce-0a80-4ca2-82b9-496a16b009ae)
+![WhatsApp Image 2025-04-12 at 23 16 49 (1)](https://github.com/user-attachments/assets/199fee20-bbcb-438e-b923-fb09bab0fea2)
+ intake, and purchase recommended products.
 
-![FitFoodie App](docs/images/app-preview.png)
+
 
 ## 🌟 Features
 
